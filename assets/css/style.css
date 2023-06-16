@@ -1,0 +1,84 @@
+.group-user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.group-user img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+.group-user p.name{
+    margin: 0;
+    color: #fff;
+}
+
+.feature .testimonial-wrap .testimonial-item{
+    padding: 0;
+}
+
+.product-card{
+    border-radius: 12px;
+    /* box-shadow: 2px 2px 20px 10px #c4c4c4; */
+    border: 1px solid #c4c4c4;
+    padding-bottom: 15px;
+}
+
+.product-card .top{
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.product-card .top img{
+    transition: all .2s ease-in-out;
+}
+
+.product-card .group-btn{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    background: #0b6505;
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+.product-card .group-btn a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    color: #ffffff;
+    border-radius: 50%;
+    transition: all .2s ease-in-out;
+}
+.product-card .group-btn a:hover{
+    background: #fff;
+    color: var(--color-primary);
+}
+
+.product-card .top:hover img{
+    transform: scale(1.2);
+    filter: brightness(0.9);
+}
+.swiper-slide:hover .top:not(:hover){
+    
+}
+.product-card .top:hover .group-btn{
+    transform: translate(-50%, -50%);
+}
+.product-card .bottom p.price{
+    color: #ff0000;
+    font-style: normal;
+    font-weight: bold;
+}
