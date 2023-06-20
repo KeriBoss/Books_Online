@@ -26,6 +26,7 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/dataTables.bootstrap4.min.css">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -71,7 +72,7 @@
           <li><a href="./index.html">Trang Chủ</a></li>
           <li class="dropdown"><a href="#"><span>Chức Năng</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="#">Thêm Tài Liệu Mới</a></li>
+              <li><a href="./add_product.html">Thêm Tài Liệu Mới</a></li>
               <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul class="dropdown-menu-left dropdown-left">
                   <li><a class="dropdown-item" href="#">Deep Drop Down 1</a></li>
@@ -81,21 +82,30 @@
                   <li><a class="dropdown-item" href="#">Deep Drop Down 5</a></li>
                 </ul>
               </li> -->
-              <li><a href="#">Thêm bài viết mới</a></li>
+              <li><a href="./add_blog.html">Thêm bài viết mới</a></li>
             </ul>
           </li>
           <li><a href="./product.html">Tài Liệu</a></li>
           <li><a href="./blog.html">Bài Đăng</a></li>
-          <li><a href="#portfolio">Giỏ hàng</a></li>
+          <li><a href="./cart.html">Giỏ hàng</a></li>
           <li class="dropdown">
-              <span class="group-user">
-                <img src="./assets/img/team/team-1.jpg" alt="">
-                <p class="name"><a><span>Divid</span></a></p>
-              </span> 
-            
+            <a href="#" class="group-user">
+              <!-- <span> -->
+                <div>
+                  <img src="./assets/img/team/team-1.jpg" alt="">
+                  <span>Divid</span>
+                </div>
+                <i class="bi bi-chevron-down dropdown-indicator"></i>
+              <!-- </span>  -->
+            </a>
             <ul>
               <li><a href="./profile.html">Profile</a></li>
-              <li><a href="">Đăng xuất</a></li>
+              <li><a href="./blog.html">Bài đăng</a></li>
+              <li><a href="./product.html">Tài liệu</a></li>
+              <li><a href="./refer_code.html">Mã giới thiệu</a></li>
+              <li><a href="./commission-policy.html">Chính sách hoa hồng</a></li>
+              <li><a href="./manager-cost.html">Quản lý tài chính</a></li>
+              <li><a href="./login.html">Đăng xuất</a></li>
             </ul>
           </li>
         </ul>
@@ -235,12 +245,12 @@
                         <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><i class="fa-sharp fa-regular fa-eye"></i>
                           
                         </a>
-                        <a href=""><i class='bx bx-plus'></i></a>
-                        <a href=""><i class='bx bxs-edit-alt'></i></a>
+                        <a href="./cart.html"><i class='bx bx-plus'></i></a>
+                        <a href="./product-detail.html"><i class='bx bxs-edit-alt'></i></a>
                       </div>
                     </div>
                     <div class="bottom text-center">
-                      <p class="title"><a href="">Simple Way Of Piece Life</a></p>
+                      <p class="title"><a href="./product-detail.html">Simple Way Of Piece Life</a></p>
                       <p class="author"><span>Kely Marry</span></p>
                       <p class="price"><span>1000000 VND</span></p>
                     </div>
@@ -257,13 +267,15 @@
                         <img src="./assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
                       </a>
                       <div class="group-btn">
-                        <a href=""><i class="fa-sharp fa-regular fa-eye"></i></a>
-                        <a href=""><i class='bx bx-plus'></i></a>
-                        <a href=""><i class='bx bxs-edit-alt'></i></a>
+                        <a href="./assets/img/portfolio/books-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><i class="fa-sharp fa-regular fa-eye"></i>
+                          
+                        </a>
+                        <a href="./cart.html"><i class='bx bx-plus'></i></a>
+                        <a href="./product-detail.html"><i class='bx bxs-edit-alt'></i></a>
                       </div>
                     </div>
                     <div class="bottom text-center">
-                      <p class="title"><a href="">Simple Way Of Piece Life</a></p>
+                      <p class="title"><a href="./product-detail.html">Simple Way Of Piece Life</a></p>
                       <p class="author"><span>Kely Marry</span></p>
                       <p class="price"><span>1000000 VND</span></p>
                     </div>
@@ -277,16 +289,18 @@
                   <div class="product-card">
                     <div class="top">
                       <a href="">
-                        <img src="./assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
+                        <img src="./assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
                       </a>
                       <div class="group-btn">
-                        <a href=""><i class="fa-sharp fa-regular fa-eye"></i></a>
-                        <a href=""><i class='bx bx-plus'></i></a>
-                        <a href=""><i class='bx bxs-edit-alt'></i></a>
+                        <a href="./assets/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><i class="fa-sharp fa-regular fa-eye"></i>
+                          
+                        </a>
+                        <a href="./cart.html"><i class='bx bx-plus'></i></a>
+                        <a href="./product-detail.html"><i class='bx bxs-edit-alt'></i></a>
                       </div>
                     </div>
                     <div class="bottom text-center">
-                      <p class="title"><a href="">Simple Way Of Piece Life</a></p>
+                      <p class="title"><a href="./product-detail.html">Simple Way Of Piece Life</a></p>
                       <p class="author"><span>Kely Marry</span></p>
                       <p class="price"><span>1000000 VND</span></p>
                     </div>
@@ -294,6 +308,7 @@
                 </div>
               </div>
             </div><!-- End testimonial item -->
+            
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -325,12 +340,12 @@
                         <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><i class="fa-sharp fa-regular fa-eye"></i>
                           
                         </a>
-                        <a href=""><i class='bx bx-plus'></i></a>
-                        <a href=""><i class='bx bxs-edit-alt'></i></a>
+                        <a href="./cart.html"><i class='bx bx-plus'></i></a>
+                        <a href="./product-detail.html"><i class='bx bxs-edit-alt'></i></a>
                       </div>
                     </div>
                     <div class="bottom text-center">
-                      <p class="title"><a href="">Simple Way Of Piece Life</a></p>
+                      <p class="title"><a href="./product-detail.html">Simple Way Of Piece Life</a></p>
                       <p class="author"><span>Kely Marry</span></p>
                       <p class="price"><span>1000000 VND</span></p>
                     </div>
@@ -347,13 +362,15 @@
                         <img src="./assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
                       </a>
                       <div class="group-btn">
-                        <a href=""><i class="fa-sharp fa-regular fa-eye"></i></a>
-                        <a href=""><i class='bx bx-plus'></i></a>
-                        <a href=""><i class='bx bxs-edit-alt'></i></a>
+                        <a href="./assets/img/portfolio/books-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><i class="fa-sharp fa-regular fa-eye"></i>
+                          
+                        </a>
+                        <a href="./cart.html"><i class='bx bx-plus'></i></a>
+                        <a href="./product-detail.html"><i class='bx bxs-edit-alt'></i></a>
                       </div>
                     </div>
                     <div class="bottom text-center">
-                      <p class="title"><a href="">Simple Way Of Piece Life</a></p>
+                      <p class="title"><a href="./product-detail.html">Simple Way Of Piece Life</a></p>
                       <p class="author"><span>Kely Marry</span></p>
                       <p class="price"><span>1000000 VND</span></p>
                     </div>
@@ -367,16 +384,18 @@
                   <div class="product-card">
                     <div class="top">
                       <a href="">
-                        <img src="./assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
+                        <img src="./assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
                       </a>
                       <div class="group-btn">
-                        <a href=""><i class="fa-sharp fa-regular fa-eye"></i></a>
-                        <a href=""><i class='bx bx-plus'></i></a>
-                        <a href=""><i class='bx bxs-edit-alt'></i></a>
+                        <a href="./assets/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><i class="fa-sharp fa-regular fa-eye"></i>
+                          
+                        </a>
+                        <a href="./cart.html"><i class='bx bx-plus'></i></a>
+                        <a href="./product-detail.html"><i class='bx bxs-edit-alt'></i></a>
                       </div>
                     </div>
                     <div class="bottom text-center">
-                      <p class="title"><a href="">Simple Way Of Piece Life</a></p>
+                      <p class="title"><a href="./product-detail.html">Simple Way Of Piece Life</a></p>
                       <p class="author"><span>Kely Marry</span></p>
                       <p class="price"><span>1000000 VND</span></p>
                     </div>
@@ -384,6 +403,7 @@
                 </div>
               </div>
             </div><!-- End testimonial item -->
+            
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -990,6 +1010,7 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
+  <script src="assets/js/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -997,10 +1018,29 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!--New-->
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script src="./assets/js/chart.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <!-- Vendor JS datatable -->
+  <script src="./assets/js/jquery.dataTables.min.js"></script>
+  <script src="./assets/js/dataTables.bootstrap4.min.js"></script>
 
+  <!--New-->
+  <script src="https://cdn.ckeditor.com/ckeditor5/38.0.1/classic/ckeditor.js"></script>
+  <script>
+      // This sample still does not showcase all CKEditor 5 features (!)
+          // Visit https://ckeditor.com/docs/ckeditor5/latest/features/index.html to browse all the features.
+  ClassicEditor
+      .create( document.querySelector( '#editor' ) )
+      .catch( error => {
+          console.error( error );
+      } );
+  </script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

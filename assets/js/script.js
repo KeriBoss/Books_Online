@@ -42,3 +42,11 @@ if(navtabs){
         })
     })
 }
+
+$(document).ready(function () {
+    $('#dataTable').DataTable({
+     "ordering": false, // false to disable sorting (or any other option)
+     "lengthMenu": [[5,10, 25, 50, -1], [5,10, 25, 50, "All"]]
+    });
+    $('.dataTables_length').addClass('bs-select');
+});
